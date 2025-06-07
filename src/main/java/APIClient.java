@@ -5,7 +5,7 @@ import java.net.URL;
 
 public class APIClient {
 
-    public static final String endpoint = "https://v6.exchangerate-api.com/v6/YOUR_API_KEY/latest/USD";
+    public static final String endpoint = "https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD";
 
     public String getExchangeRateData() {
         try {
